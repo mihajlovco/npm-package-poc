@@ -21,5 +21,13 @@
     "tsup": "^8.0.2",
     "typescript": "5.4.5",
     "vitest": "^1.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihajlovco/npm-package-poc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mihajlovco/npm-package-poc/issues"
+  },
+  "homepage": "https://github.com/mihajlovco/npm-package-poc#readme"
 }
