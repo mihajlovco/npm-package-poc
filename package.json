@@ -1,18 +1,22 @@
 {
-  "name": "npm-package-poc",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@m9/npm-package-poc",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "npm run lint & npm run test & npm run build"
+    "ci": "npm run lint & npm run test & npm run build",
+    "release": "npm run lint & npm run test & npm run build & npx changeset publish"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@changesets/cli": "^2.27.1",
     "@types/node": "20.12.7",
     "tsup": "^8.0.2",
     "typescript": "5.4.5",
