@@ -6,10 +6,7 @@ on:
   pull_request:
     branches:
       - "**"
-
-runs:
-  using: 'node20'
-
+      
 jobs:
   build:
     runs-on: ubuntu-latest
