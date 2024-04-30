@@ -1,6 +1,6 @@
 {
-  "name": "@m9/npm-package-poc",
-  "version": "0.0.2",
+  "name": "@sashom/npm-package-poc",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
